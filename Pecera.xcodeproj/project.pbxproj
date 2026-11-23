@@ -1,0 +1,20 @@
+// !$*UTF8*$!
+{ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+ A00000000000000000000001 = {isa = PBXBuildFile; fileRef = A00000000000000000000002; };
+ A00000000000000000000002 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeceraApp.swift; sourceTree = "<group>"; };
+ A00000000000000000000003 = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Pecera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+ A00000000000000000000004 = {isa = PBXGroup; children = (A00000000000000000000005, A00000000000000000000006); sourceTree = "<group>"; };
+ A00000000000000000000005 = {isa = PBXGroup; path = Pecera; children = (A00000000000000000000002); sourceTree = "<group>"; };
+ A00000000000000000000006 = {isa = PBXGroup; name = Products; children = (A00000000000000000000003); sourceTree = "<group>"; };
+ A00000000000000000000007 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A00000000000000000000001); runOnlyForDeploymentPostprocessing = 0; };
+ A00000000000000000000008 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+ A00000000000000000000009 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+ A0000000000000000000000A = {isa = PBXNativeTarget; buildConfigurationList = A0000000000000000000000E; buildPhases = (A00000000000000000000007,A00000000000000000000008,A00000000000000000000009); buildRules = (); dependencies = (); name = Pecera; productName = Pecera; productReference = A00000000000000000000003; productType = "com.apple.product-type.application"; };
+ A0000000000000000000000B = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 1600; TargetAttributes = {A0000000000000000000000A = {CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = A0000000000000000000000D; compatibilityVersion = "Xcode 14.0"; developmentRegion = es; knownRegions = (es,en,Base); mainGroup = A00000000000000000000004; productRefGroup = A00000000000000000000006; projectDirPath = ""; projectRoot = ""; targets = (A0000000000000000000000A); };
+ A0000000000000000000000C = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; }; name = Debug; };
+ A0000000000000000000000F = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 17.0; }; name = Release; };
+ A00000000000000000000010 = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Mi pecerita"; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; PRODUCT_BUNDLE_IDENTIFIER = com.eniadesign.mipecerita; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; CODE_SIGN_STYLE = Automatic; }; name = Debug; };
+ A00000000000000000000011 = {isa = XCBuildConfiguration; buildSettings = {GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Mi pecerita"; INFOPLIST_KEY_UILaunchScreen_Generation = YES; INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait; PRODUCT_BUNDLE_IDENTIFIER = com.eniadesign.mipecerita; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = 1; CODE_SIGN_STYLE = Automatic; }; name = Release; };
+ A0000000000000000000000D = {isa = XCConfigurationList; buildConfigurations = (A0000000000000000000000C,A0000000000000000000000F); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+ A0000000000000000000000E = {isa = XCConfigurationList; buildConfigurations = (A00000000000000000000010,A00000000000000000000011); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+}; rootObject = A0000000000000000000000B; }
